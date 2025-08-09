@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    
+    <!-- Face Background -->
+    <path
+        android:fillColor="@color/chals_light_pink"
+        android:pathData="M30,5 C45,5 55,15 55,30 C55,45 45,55 30,55 C15,55 5,45 5,30 C5,15 15,5 30,5 Z" />
+    
+    <!-- Eyes (looking up, thinking) -->
+    <ellipse
+        android:fillColor="@color/black"
+        android:pathData="M22,22 A3,4 0 1,1 22,22 Z" />
+    <ellipse
+        android:fillColor="@color/black"
+        android:pathData="M38,22 A3,4 0 1,1 38,22 Z" />
+    
+    <!-- Eye highlights -->
+    <ellipse
+        android:fillColor="@color/white"
+        android:pathData="M23,21 A1,1.5 0 1,1 23,21 Z" />
+    <ellipse
+        android:fillColor="@color/white"
+        android:pathData="M39,21 A1,1.5 0 1,1 39,21 Z" />
+    
+    <!-- Mouth (thoughtful) -->
+    <path
+        android:strokeColor="@color/chals_dark_pink"
+        android:strokeWidth="1"
+        android:fillColor="android:color/transparent"
+        android:pathData="M26,36 Q30,34 34,36" />
+    
+    <!-- Thinking dots -->
+    <circle
+        android:fillColor="@color/chals_accent"
+        android:cx="42"
+        android:cy="15"
+        android:r="1.5" />
+    <circle
+        android:fillColor="@color/chals_accent"
+        android:cx="46"
+        android:cy="12"
+        android:r="2" />
+    <circle
+        android:fillColor="@color/chals_accent"
+        android:cx="50"
+        android:cy="8"
+        android:r="2.5" />
+        
+</vector>
