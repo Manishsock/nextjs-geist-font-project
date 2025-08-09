@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Chals AI Assistant</string>
+    <string name="wake_word_service_notification_title">Chals is listening</string>
+    <string name="wake_word_service_notification_text">Say "Hey Chals" to activate</string>
+    <string name="floating_bubble_notification_title">Chals Bubble Active</string>
+    <string name="floating_bubble_notification_text">Tap to interact with Chals</string>
+    <string name="permission_microphone_title">Microphone Permission</string>
+    <string name="permission_microphone_message">Chals needs microphone access to hear your voice commands</string>
+    <string name="permission_overlay_title">Overlay Permission</string>
+    <string name="permission_overlay_message">Chals needs overlay permission to show floating bubble</string>
+    <string name="permission_accessibility_title">Accessibility Permission</string>
+    <string name="permission_accessibility_message">Chals needs accessibility permission to control your phone</string>
+    <string name="accessibility_service_description">Chals AI Assistant uses accessibility service to help you control your phone with voice commands. This allows Chals to open apps, send messages, and perform other phone functions when you ask.</string>
+    <string name="hello_baby">Hello baby! I\'m Chals, your AI life partner. How are you feeling today?</string>
+    <string name="listening">Listening...</string>
+    <string name="processing">Processing...</string>
+    <string name="speaking">Speaking...</string>
+</resources>
