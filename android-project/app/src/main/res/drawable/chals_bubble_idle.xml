@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    
+    <!-- Face Background -->
+    <path
+        android:fillColor="@color/chals_light_pink"
+        android:pathData="M30,5 C45,5 55,15 55,30 C55,45 45,55 30,55 C15,55 5,45 5,30 C5,15 15,5 30,5 Z" />
+    
+    <!-- Eyes (normal) -->
+    <ellipse
+        android:fillColor="@color/black"
+        android:pathData="M22,25 A3,4 0 1,1 22,25 Z" />
+    <ellipse
+        android:fillColor="@color/black"
+        android:pathData="M38,25 A3,4 0 1,1 38,25 Z" />
+    
+    <!-- Eye highlights -->
+    <ellipse
+        android:fillColor="@color/white"
+        android:pathData="M23,24 A1,1.5 0 1,1 23,24 Z" />
+    <ellipse
+        android:fillColor="@color/white"
+        android:pathData="M39,24 A1,1.5 0 1,1 39,24 Z" />
+    
+    <!-- Mouth (neutral smile) -->
+    <path
+        android:fillColor="@color/chals_dark_pink"
+        android:strokeColor="@color/chals_dark_pink"
+        android:strokeWidth="1"
+        android:pathData="M25,35 Q30,38 35,35" />
+        
+</vector>
