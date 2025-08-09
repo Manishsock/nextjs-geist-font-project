@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    
+    <!-- Face Background -->
+    <path
+        android:fillColor="@color/chals_light_pink"
+        android:pathData="M30,5 C45,5 55,15 55,30 C55,45 45,55 30,55 C15,55 5,45 5,30 C5,15 15,5 30,5 Z" />
+    
+    <!-- Eyes (attentive/focused) -->
+    <ellipse
+        android:fillColor="@color/black"
+        android:pathData="M22,24 A3,5 0 1,1 22,24 Z" />
+    <ellipse
+        android:fillColor="@color/black"
+        android:pathData="M38,24 A3,5 0 1,1 38,24 Z" />
+    
+    <!-- Eye highlights -->
+    <ellipse
+        android:fillColor="@color/white"
+        android:pathData="M23,23 A1,2 0 1,1 23,23 Z" />
+    <ellipse
+        android:fillColor="@color/white"
+        android:pathData="M39,23 A1,2 0 1,1 39,23 Z" />
+    
+    <!-- Mouth (slightly open, listening) -->
+    <ellipse
+        android:fillColor="@color/chals_dark_pink"
+        android:pathData="M30,36 A2,3 0 1,1 30,36 Z" />
+    
+    <!-- Sound waves indicator -->
+    <path
+        android:strokeColor="@color/chals_accent"
+        android:strokeWidth="1"
+        android:fillColor="android:color/transparent"
+        android:pathData="M45,25 Q50,30 45,35" />
+    <path
+        android:strokeColor="@color/chals_accent"
+        android:strokeWidth="1"
+        android:fillColor="android:color/transparent"
+        android:pathData="M47,27 Q51,30 47,33" />
+        
+</vector>
