@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="@drawable/floating_bubble_background">
+
+    <ImageView
+        android:id="@+id/bubbleImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:contentDescription="Chals Floating Bubble"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chals_bubble_idle" />
+
+    <!-- Pulse indicator for listening state -->
+    <View
+        android:id="@+id/pulseIndicator"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/pulse_indicator_background"
+        android:visibility="gone" />
+
+</FrameLayout>
